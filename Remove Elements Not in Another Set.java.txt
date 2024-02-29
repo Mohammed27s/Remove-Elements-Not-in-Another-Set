@@ -23,21 +23,23 @@ public class removeElement {
          System.out.println("The first set has modify : "+set1+"\n");
          System.out.println("------------------------------------------");
 
+         //Remove all elements that are not found in the second set 
+
          System.out.println("The removed all elements that are not found in the second set : " +
                  " "+set2.remove(set2.remove(20)+" , "+set2.remove(22)+
-                 "\n"+ "And the second set now is : "+set2));
+                 "\n"+ "And the second set now is : "+set2)+"\n");
 
          System.out.println("The second set is now : "+set2);
 
      }
+
      else {
 
-         System.out.println("There is common elements in bot sets ");
+         System.out.println("There is common elements in bot sets");
      }
      
      
-     System.out.println("The size set1 : "+set1.size());
-     System.out.println("The current status of the first set after modyfing "+set1);
+
 
 
 
