@@ -1,4 +1,3 @@
-
 //Remove Elements Not in Another Set
 
 import java.net.Inet4Address;
@@ -15,8 +14,9 @@ public class removeElement {
         HashSet<Integer> set2 = new HashSet<>(Arrays.asList(20, 22));
 
 
+     System.out.println("The current status of the first set : "+set1);
 
-     if(set1.retainAll(set2)){
+     if(set2.retainAll(set1)){
 
          set1.add(55);
 
@@ -34,6 +34,10 @@ public class removeElement {
 
          System.out.println("There is common elements in bot sets ");
      }
+     
+     
+     System.out.println("The size set1 : "+set1.size());
+     System.out.println("The current status of the first set after modyfing "+set1);
 
 
 
