@@ -1,0 +1,41 @@
+
+//Remove Elements Not in Another Set
+
+import java.net.Inet4Address;
+import java.util.Arrays;
+import java.util.HashSet;
+
+public class removeElement {
+
+    public static void main(String[] args){
+
+
+        HashSet<Integer> set1 = new HashSet<>(Arrays.asList(443, 80));
+
+        HashSet<Integer> set2 = new HashSet<>(Arrays.asList(20, 22));
+
+
+
+     if(set1.retainAll(set2)){
+
+         set1.add(55);
+
+         System.out.println("The first set has modify : "+set1+"\n");
+         System.out.println("------------------------------------------");
+
+         System.out.println("The removed all elements that are not found in the second set : " +
+                 " "+set2.remove(set2.remove(20)+" , "+set2.remove(22)+
+                 "\n"+ "And the second set now is : "+set2));
+
+         System.out.println("The second set is now : "+set2);
+
+     }
+     else {
+
+         System.out.println("There is common elements in bot sets ");
+     }
+
+
+
+    }
+}
